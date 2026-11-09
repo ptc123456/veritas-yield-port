@@ -16,9 +16,10 @@
   "dependencies": {
     "@rome-protocol/registry": "file:./packages/rome-registry",
     "@rome-protocol/sdk": "file:./packages/rome-sdk",
+    "@solana/spl-token": "^0.4.15",
     "@solana/web3.js": "^1.98.0",
     "lucide-react": "^0.468.0",
-    "next": "15.1.6",
+    "next": "^15.5.12",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "viem": "^2.21.0"
