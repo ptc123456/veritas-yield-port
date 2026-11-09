@@ -4,7 +4,7 @@
 - **App Name:** Veritas Port
 - **One-Line Summary:** An atomic yield port letting EVM and Solana wallets earn in Solana lending markets
 - **App Category:** Both (DeFi / Cross-Runtime Atomic Yield Aggregator)
-- **Live Production Website:** https://01-solana-yield-port.vercel.app
+- **Live Production Website:** https://veritas-yield-port.vercel.app
 - **Public GitHub Repository:** https://github.com/ptc123456/veritas-yield-port
 - **What Are We Building?:**
   One yield vault, two kinds of wallet. EVM wallet users deposit through Rome (`submitRomeTx`) and Solana wallet users deposit natively via proxy-composed v1 transactions (`submitRomeTxV1`), while the `RomeYieldPort.sol` Solidity contract invokes Solana lending and SPL programs atomically via Rome CPI precompiles (`0xFF...07`, `0xFF...08`, `0xFF...09`) in a single Solana transaction (`<= 4` CPI depth, Borsh instruction layout, and external-authority PDA signing).

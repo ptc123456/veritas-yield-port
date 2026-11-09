@@ -1,13 +1,13 @@
 # Veritas Port — Atomic Solana Yield Port for EVM & Solana Wallets
 
-> **Rome Builder Arena Flagship Submission (`01-solana-yield-port`)**  
+> **Rome Builder Arena Flagship Submission**  
 > *One yield vault, two kinds of wallet. Deposit from MetaMask (`submitRomeTx`) or Solflare/Phantom (`submitRomeTxV1`) and earn in Solana lending markets (`Kamino Lend`, `Save/Solend`, `Meteora Vaults`) via atomic Rome CPI precompiles (`0xFF...07`, `0xFF...08`, `0xFF...09`) in a single Solana transaction.*
 
 ---
 
 ## 🔗 Live Links & On-Chain Verification (Hadrian Testnet `200010`)
 
-- **Live Website (Vercel Production):** [https://01-solana-yield-port.vercel.app](https://01-solana-yield-port.vercel.app)
+- **Live Website (Vercel Production):** [https://veritas-yield-port.vercel.app](https://veritas-yield-port.vercel.app)
 - **Public GitHub Repository:** [https://github.com/ptc123456/veritas-yield-port](https://github.com/ptc123456/veritas-yield-port)
 - **Smart Contract (`RomeYieldPort.sol`):** [`0x62faee1298acf267b060026c08c819ea72a254f3`](https://via-hadrian.testnet.romeprotocol.xyz/address/0x62faee1298acf267b060026c08c819ea72a254f3)
 - **Deployment Transaction:** [`0x1cb719e85de42cbac97ea4b0b73fa90b0156e3b640b907b82c9ca7db92e835be`](https://via-hadrian.testnet.romeprotocol.xyz/tx/0x1cb719e85de42cbac97ea4b0b73fa90b0156e3b640b907b82c9ca7db92e835be)
