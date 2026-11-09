@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js / Build outputs
+.next/
+out/
+build/
+/dist/
+/artifacts/
+cache/
+typechain-types/
+
+# Environment variables & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+wallets.txt
+
+# Vercel
+.vercel
+
+# Logs & OS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts

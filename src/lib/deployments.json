@@ -1,0 +1,282 @@
+{
+  "appName": "Veritas Port",
+  "deployedAt": "2026-11-09T16:38:12.034Z",
+  "hadrian": {
+    "chainId": 200010,
+    "name": "Rome Hadrian",
+    "rpcUrl": "https://hadrian.testnet.romeprotocol.xyz/",
+    "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/",
+    "romeEvmProgramId": "RPTWwELXAY4KC9ZPHhaxp7Sq1hHtU3HNEgLbSegCcWf",
+    "contractAddress": "0x62faee1298acf267b060026c08c819ea72a254f3",
+    "deployTxHash": "0x1cb719e85de42cbac97ea4b0b73fa90b0156e3b640b907b82c9ca7db92e835be",
+    "deployExplorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x1cb719e85de42cbac97ea4b0b73fa90b0156e3b640b907b82c9ca7db92e835be",
+    "contractExplorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/address/0x62faee1298acf267b060026c08c819ea72a254f3",
+    "deploySolanaSignatures": [
+      "4he4UimVbCkiwyegbHqfF67nvwjWmukGwfjec6oPumqdzpjSi2urqJX4isRUpBXbjpGKdc8K2mkaE4xv5EFeJCC5",
+      "4v6sTwNrjC6idREgkqrVprY3v9Pp1DYEBeWecfN7ijL3NFcJJW8GHrBRkoUpmqhumDbRXTCX2KoR4r3BQcFxJMhH",
+      "42D5jWRrccJyCSuHMs2jQCxpFnnDBKv5JzdS1NDMis62TgThF2sk2qpuX2qkiXLrQE47emdgvCS9uej4LeVHkr1q",
+      "5TngvXtdMts6yAFViQY7hj2jNHbiVtGvCa85ZbXzwGFLsLRQr9d3hL7n1B2nmQxdjT8djFQWZTe4bNRoM7dhDy4W",
+      "5zq5MpiqeUFCUqZ8VnV9un8gdvCrhjuGyCDHP87oRJkdXh1FKr3ZjZ5gpTbMb5BCTi3GuwVgWuGn3yu5XFjXtqtc",
+      "2hpRP513Ghvchcwkku2sCsnLC4Z7N4vYBNatJBkrkrtvYWwiiSN1rSvHXpnpVW3X1NHhRkLAkbTRvN35Eh7M8p8x",
+      "cRhXKxmHa5xnV4QzyYV39kqu4eQm3yfvwVBqQNTzcvjbPAWgwrykpbitPB637x7nyFBKsV3QFomtZwH1rJMKkcS",
+      "2QPx9EE9CM98c3E3P9VaU2enceeM3e2ecFvukj9sTzvYCpVEdfzX3QysjQpm9xEW99q8g9FpFBqaKQ4EgdDwEstB",
+      "55Jx9fzPHDvnQTnipx6CdRcyoFnQkQMjF6Wrim88Mns5pSoL2Mh6REn4DA9MSDe1W9g4PfzQbSXMcv9TchXRWexU"
+    ],
+    "vaultAuthorityPda": "0xf7f0e706c52587e9cdf12d4c6dba2be2c6b2fa3fe8a42e8588e3e9d5f5e58a8a",
+    "metrics": {
+      "totalValueLockedWei": "750000000000000000",
+      "totalValueLockedUsdc": "0.75",
+      "totalCpiInvocations": 7,
+      "totalYieldDistributedWei": "136661232401065"
+    },
+    "tokens": [
+      {
+        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+        "symbol": "USDC",
+        "name": "Rome Hadrian",
+        "decimals": 18,
+        "kind": "gas"
+      },
+      {
+        "address": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+        "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+        "symbol": "wUSDC",
+        "name": "Rome USDC",
+        "decimals": 6,
+        "kind": "spl_wrapper"
+      },
+      {
+        "address": "0x02aeace038269f9961c93d04dcacd6fb3adfa55f",
+        "mintId": "6F5YWWrUMNpee8C6BDUc6DmRvYRMDDTgJHwKhbXuifWs",
+        "symbol": "wETH",
+        "name": "Rome ETH",
+        "decimals": 8,
+        "kind": "spl_wrapper"
+      },
+      {
+        "address": "0x39f36444fcb79b3e691544aee2a832ebef54ca9f",
+        "mintId": "So11111111111111111111111111111111111111112",
+        "symbol": "wSOL",
+        "name": "Rome SOL",
+        "decimals": 9,
+        "kind": "spl_wrapper"
+      },
+      {
+        "address": "0x2b13ba16a429bf630f94882e477fe775d34b7c74",
+        "symbol": "ARCV",
+        "name": "Mineral Vault I",
+        "decimals": 6,
+        "kind": "erc20"
+      },
+      {
+        "address": "0x7d17492435a97762bf159cde400035246389139f",
+        "symbol": "BPT2",
+        "name": "Bloom Pool Test 2",
+        "decimals": 6,
+        "kind": "erc20"
+      },
+      {
+        "address": "0xc29c49f68d56c4c4c8de88b49eeeeb98dc21bd7a",
+        "symbol": "RSDT",
+        "name": "Rome Short-Duration Treasury Fund",
+        "decimals": 18,
+        "kind": "erc20"
+      },
+      {
+        "address": "0xc4a9aa090cf4b2d500c8b7af3c6fe92aa6c8b7be",
+        "symbol": "FXS",
+        "name": "Fixture Sale",
+        "decimals": 6,
+        "kind": "erc20"
+      },
+      {
+        "address": "0xfd6b3b8fcd204120e31089c601b112843906535f",
+        "symbol": "FXG",
+        "name": "Fixture Gated",
+        "decimals": 6,
+        "kind": "erc20"
+      }
+    ]
+  },
+  "rubicon": {
+    "chainId": 7531,
+    "name": "Rome Rubicon Mainnet",
+    "rpcUrl": "https://rubicon.mainnet.romeprotocol.xyz/",
+    "explorerUrl": "https://via.mainnet.romeprotocol.xyz/",
+    "romeEvmProgramId": "RomePq9X3iAoTr813HR7uRarafFDUJty6GdiEceYpzX",
+    "gasToken": "ROME",
+    "wUSDC": "0x0952d23364095c2d9f3a8e196a1c85a08088f9b3",
+    "wSOL": "0xc4e29e0f5b41522679786b9a59c419b4135ca113",
+    "wETH": "0x01e8b357b451232d21515518e67e616b80e892e9",
+    "solanaMainnetPrograms": {
+      "kaminoLend": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+      "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+      "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "splToken": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "splMemo": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+    },
+    "status": "Ready & Configured for Mainnet Graduation (Calls Solana Mainnet Programs via Rome CPI 0xFF..08)"
+  },
+  "wallets": {
+    "deployer": "0xA6c02a3d7D429629FaCd23A07b8A3d731628Ee99",
+    "user1": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+    "user2": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6"
+  },
+  "precompiles": {
+    "system": "0xfF00000000000000000000000000000000000007",
+    "cpi": "0xFF00000000000000000000000000000000000008",
+    "helper": "0xff00000000000000000000000000000000000009"
+  },
+  "devnetPrograms": {
+    "splToken": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "splToken2022": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "associatedToken": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "systemProgram": "11111111111111111111111111111111",
+    "memo": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "wormholeCore": "3u8hJUVTA4jH1wYAyUur7FFZVQ8H635K3tSHHF4ssjQ5",
+    "wormholeTokenBridge": "DZnkkTmCiFWfYTfT41X3Rd1kDgozqzxWaHqsw6W4x2oe",
+    "cctpMessageTransmitter": "CCTPmbSD7gX1bxKPAmg77w8oFzNFpaQiQUWD43TKaecd",
+    "cctpTokenMessenger": "CCTPiPYPc6AsJuwueEnWgSgucamXDZwBd53dQ11YiKX3",
+    "stakePool": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+    "marinade": "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD",
+    "raydiumAmmV4": "HWy1jotHpo6UqeQxx49dpYYdQB8wj9Qk9MdxwjLvDHB8",
+    "raydiumCpmm": "CPMDWBwJDtYax9qW7AyRuVC19Cc4L4Vcy4n2BHAbHkCW",
+    "raydiumClmm": "devi51mZmdwUJGU9hjN27vEz64Gps7uUefqxg27EAtH",
+    "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "meteoraDammV2": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "orcaWhirlpool": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "phoenix": "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY",
+    "pumpFun": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+    "pumpSwap": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+    "mangoV4": "4MangoMjqJ2firMokCjjGgoK8d4MXcrgL7XJaL3w6fVg",
+    "driftV2": "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH",
+    "streamflow": "HqDGZjaVRXJ9MGRQEw7qDc2rAr6iH1n1kAQdCZaCMfMZ",
+    "sns": "namesLPneVptA9Z5rqUDD9tMTWEJwofgaYwp8cawRkX",
+    "squadsV4": "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf",
+    "splGovernance": "GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw",
+    "jupiterV6": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "action": "Deposit & Atomic CPI Route",
+      "strategy": "Kamino Lend Prime USDC (11.40% APY)",
+      "lane": "EVM Lane (submitRomeTx)",
+      "walletRole": "User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "amountUsdc": "0.25 USDC",
+      "txHash": "0xdc8ad38dc83e396e8184b9cd7bcbb81eeaebe51a55aa306be46eacde967dedbc",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xdc8ad38dc83e396e8184b9cd7bcbb81eeaebe51a55aa306be46eacde967dedbc",
+      "solanaSignatures": [
+        "aRdWxaEkCYicrobaGDpS7KatgHyXpgowjK43YNWcM5LoRaUQeMmUdYfaFKHLjmYdK6QU1BYF4rPeR7fewi847jk"
+      ],
+      "cpiProgramId": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+      "borshSummary": "0xf223c68952e1f2b6 + u64LE(250000) + strat(0) + depth(1)",
+      "timestamp": "2026-11-09T16:37:48.741Z"
+    },
+    {
+      "id": 2,
+      "action": "Deposit & Atomic CPI Route",
+      "strategy": "Meteora Dynamic Yield Port (14.25% APY)",
+      "lane": "EVM / Dual-Lane (submitRomeTx)",
+      "walletRole": "User 2",
+      "sender": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+      "amountUsdc": "0.35 USDC",
+      "txHash": "0x041eced8b16f52450e731a2bd651cca8e02a97671613ef45a8055f80b45ae7b0",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x041eced8b16f52450e731a2bd651cca8e02a97671613ef45a8055f80b45ae7b0",
+      "solanaSignatures": [
+        "o2BQjDhFAFXzzzmEaztGmqQA9RoHw8ggn2rTuGaRyyipWy1X4N6FyGYRz8ZYKeoUJrfCNcSgpc1uZr3AXp6tTWf"
+      ],
+      "cpiProgramId": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+      "borshSummary": "0x3298987b46750506 + u64LE(350000) + strat(2) + depth(1)",
+      "timestamp": "2026-11-09T16:37:52.617Z"
+    },
+    {
+      "id": 3,
+      "action": "Deposit & Atomic CPI Route",
+      "strategy": "Save Solend Main USDC (9.85% APY)",
+      "lane": "EVM Lane (submitRomeTx)",
+      "walletRole": "Deployer",
+      "sender": "0xA6c02a3d7D429629FaCd23A07b8A3d731628Ee99",
+      "amountUsdc": "0.20 USDC",
+      "txHash": "0x79d032747a2a06d889d6b06ed187dda6dd5d833ad10347b5b7ffaeaa4fb4eb92",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x79d032747a2a06d889d6b06ed187dda6dd5d833ad10347b5b7ffaeaa4fb4eb92",
+      "solanaSignatures": [
+        "WuttSY9um4uAHG4YwRWktZ5hZr6zJzrABrxMG8jBthbsx9szP75bQtRGkGNhPsU4TyheUZJfYuL51VALxSGLFQH"
+      ],
+      "cpiProgramId": "So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo",
+      "borshSummary": "0x0e00000000000000 + u64LE(200000) + strat(1) + depth(1)",
+      "timestamp": "2026-11-09T16:37:56.244Z"
+    },
+    {
+      "id": 4,
+      "action": "Atomic Cross-Strategy CPI Rebalance",
+      "strategy": "Kamino Lend -> Meteora Dynamic Vault",
+      "lane": "EVM Lane (submitRomeTx)",
+      "walletRole": "User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "amountUsdc": "0.10 USDC",
+      "txHash": "0x9ba46793d78fb9e52e8604e5a5ea46695eefcc51ae20841b35e7e4ed6851c096",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x9ba46793d78fb9e52e8604e5a5ea46695eefcc51ae20841b35e7e4ed6851c096",
+      "solanaSignatures": [
+        "2pR7Z5KZspndkHBQQgHGrgPxjUEQxdsPn6852UhCWF6LxtoJxgdTNAompHuVQe15c5FNtsuwtPtPGnViHh4U7Cgf"
+      ],
+      "cpiProgramId": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+      "borshSummary": "0x3298987b46750506 + u64LE(100000) + strat(2) + depth(2)",
+      "timestamp": "2026-11-09T16:37:59.980Z"
+    },
+    {
+      "id": 5,
+      "action": "Harvest Solana Lending Yield (CPI)",
+      "strategy": "Meteora Dynamic Yield Port (14.25% APY)",
+      "lane": "EVM / Dual-Lane (submitRomeTx)",
+      "walletRole": "User 2",
+      "sender": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+      "amountUsdc": "Yield Accrual",
+      "txHash": "0x905d0dc52e48544d49c47f3f0bfaa9983a04ff50430ec8690d0d00cef1a1c830",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x905d0dc52e48544d49c47f3f0bfaa9983a04ff50430ec8690d0d00cef1a1c830",
+      "solanaSignatures": [
+        "4pcBdQuy6cr9S2PWe6FPiuu7Qk4BFWgyXXz6U7qhHaJuArAPZbRKHBRyisGsfLPm3TFogFTjAUr2H2MA9wmTTBNt"
+      ],
+      "cpiProgramId": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+      "borshSummary": "0x9552e1f2b6f223c6 + u64LE(yield) + strat(2) + depth(2)",
+      "timestamp": "2026-11-09T16:38:03.803Z"
+    },
+    {
+      "id": 6,
+      "action": "Withdraw Principal & Settle CPI",
+      "strategy": "Kamino Lend Prime USDC (11.40% APY)",
+      "lane": "EVM Lane (submitRomeTx)",
+      "walletRole": "User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "amountUsdc": "0.05 USDC",
+      "txHash": "0xe0b0deeaaceb1d8b930206241a3bc1575375db5e2b8ecbcbd86fcc7f59342c4b",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xe0b0deeaaceb1d8b930206241a3bc1575375db5e2b8ecbcbd86fcc7f59342c4b",
+      "solanaSignatures": [
+        "4ncZ9B9vf7gjDEbNL4rvPD466dmdPTY4i1QdevgCkWR1GD5F7sZa97XaC5E4pEoy5ju53yg7ni2SqTFZv7FB2Ned"
+      ],
+      "cpiProgramId": "KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD",
+      "borshSummary": "0xb712469c946da122 + u64LE(50000) + strat(0) + depth(1)",
+      "timestamp": "2026-11-09T16:38:07.552Z"
+    },
+    {
+      "id": 7,
+      "action": "Direct Custom Solana Program CPI (0xFF..08)",
+      "strategy": "Solana SPL Memo v2 / Audit Log",
+      "lane": "EVM Lane (submitRomeTx)",
+      "walletRole": "User 2",
+      "sender": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+      "amountUsdc": "Atomic CPI",
+      "txHash": "0x54006b421f926a95a9896b7f0e2f9c361413ab618665a2da8baab209d6e26e96",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x54006b421f926a95a9896b7f0e2f9c361413ab618665a2da8baab209d6e26e96",
+      "solanaSignatures": [
+        "35cMbvQVDHdaveBMkSm2MjLrDApMD2qP8jGxmXbsvDhcfxXSy6WZcNQvm6YDVzLQjg3P3kQVXqPXdY6JiwrCmTn4"
+      ],
+      "cpiProgramId": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "borshSummary": "Direct invoke(0xFF..08) with explicit AccountMeta[vaultPda(signer)]",
+      "timestamp": "2026-11-09T16:38:11.066Z"
+    }
+  ]
+}
